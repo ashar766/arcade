@@ -244,16 +244,11 @@ a {
   position: relative;
   padding: 10% 2em;
   box-sizing: border-box;
-
-  /* Replacing $border with a static value */
   border: solid 3px transparent;
-  /* Border width is 5px */
   color: #FFF;
   background: #000;
   background-clip: padding-box;
   border-radius: 2em;
-
-  /* Pseudo-element for gradient background */
   position: relative;
 }
 
@@ -266,11 +261,8 @@ a {
   left: 0;
   z-index: -1;
   margin: -3px;
-  /* Border margin same as $border */
   border-radius: inherit;
-  /* Maintain border radius consistency */
   background: linear-gradient(to right, #8600F0, #FF3269);
-  /* Gradient background */
 }
 
 hr.new1 {

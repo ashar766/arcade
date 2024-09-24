@@ -309,13 +309,13 @@ hr.new1 {
 }
 
 @media (max-width: 576px) {
-#blurimg{
-  display: none !important;
-}
+  #blurimg {
+    display: none !important;
+  }
 
   #responsiveDiv {
     width: 90% !important;
-    height: 20vh !important;
+    height: 25vh !important;
   }
 
   #fontsize1 p {
